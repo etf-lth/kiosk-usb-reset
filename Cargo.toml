@@ -1,0 +1,8 @@
+[package]
+name = "kiosk-usb-reset"
+version = "0.1.0"
+authors = ["Foorack <max@foorack.com>"]
+edition = "2018"
+
+[dependencies]
+rmesg = { version = "1.0.0", features = ["sync"] }

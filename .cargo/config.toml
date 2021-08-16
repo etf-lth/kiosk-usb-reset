@@ -1,0 +1,6 @@
+[build]
+#rustflags = ["-C", "link-args=-v"]
+#target = "aarch64-linux-android"
+
+[target.aarch64-linux-android]
+linker = "/home/foorack/android-21-toolchain/bin/aarch64-linux-android-clang"
